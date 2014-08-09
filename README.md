@@ -36,7 +36,7 @@ Where
 
 ## Example
 
-in this project is present a test class that generates a Calculator Web Service that exposes two operations: multiply and sum.
+In this project is present a Test Class that generates a Calculator Web Service that exposes two operations: multiply and sum.
 
 ### calculator.properties
 
