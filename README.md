@@ -32,7 +32,7 @@ Where
      -wsdl <arg>   Wsdl
 </pre>
 
-**Note: after generation of the web service by opening the project with an IDE such as Eclipse or NetBeans you will notice an error in the class that implements the service (* Impl). This is caused because in this class you will need to implement all abstract methods.**
+**Note: after generation of the web service by opening the project with an IDE such as Eclipse or NetBeans you will notice an error in the class that implements the service (*Impl). This is caused because in this class you will need to implement all abstract methods.**
 
 ## Test
 
@@ -79,7 +79,9 @@ in this project is present a test class that generates a Calculator Web Service 
 
 ### calculator.wsdl
 
-<pre>
+
+```xml
+
 
   <?xml version="1.0" encoding="UTF-8"?>
   <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="CalculatorService"
@@ -168,7 +170,7 @@ in this project is present a test class that generates a Calculator Web Service 
       </wsdl:service>
   </wsdl:definitions>
 
-</pre>
+```
 
 
 ## Reporting an Issue
