@@ -34,7 +34,7 @@ Where
 
 **Note: after generation of the web service by opening the project with an IDE such as Eclipse or NetBeans you will notice an error in the class that implements the service (*Impl). This is caused because in this class you will need to implement all abstract methods.**
 
-## Test
+## Example
 
 in this project is present a test class that generates a Calculator Web Service that exposes two operations: multiply and sum.
 
@@ -42,7 +42,7 @@ in this project is present a test class that generates a Calculator Web Service 
 
 <pre>
   #parameters for Application generation
-  webservice.path=./src/test/resources/
+  webservice.path=./
   webservice.name=Calculator
   
   #parameters for artifact: pom
@@ -79,10 +79,7 @@ in this project is present a test class that generates a Calculator Web Service 
 
 ### calculator.wsdl
 
-
 ```xml
-
-
   <?xml version="1.0" encoding="UTF-8"?>
   <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="CalculatorService"
                     targetNamespace="http://calculator.alexanderperucci.com/"
@@ -169,9 +166,13 @@ in this project is present a test class that generates a Calculator Web Service 
           </wsdl:port>
       </wsdl:service>
   </wsdl:definitions>
-
 ```
 
+### generate a Web Service
+
+<pre>
+java generateWebService.jar -p calculator.properties -wsdl calculator.wsdl
+</pre>
 
 ## Reporting an Issue
 
