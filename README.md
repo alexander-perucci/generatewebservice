@@ -21,5 +21,6 @@ Automatic WebService Generation use:
 
 ## Usage
 
-command line:
-	java -jar generatewebservice.jar -p calculator.properties -wsdl calculator.wsdl
+Generate a Web Server using this command line:
+
+<pre>java -jar generatewebservice.jar -p calculator.properties -wsdl calculator.wsdl</pre>
