@@ -23,4 +23,10 @@ Automatic WebService Generation use:
 
 Generate a Web Server using this command line:
 
-<pre>java -jar generatewebservice.jar -p calculator.properties -wsdl calculator.wsdl</pre>
+<pre>
+java generateWebService.jar [-p <arg>] [-wsdl <arg>]
+
+Where
+     -p <arg>      Properties file configuration
+     -wsdl <arg>   Wsdl
+</pre>
