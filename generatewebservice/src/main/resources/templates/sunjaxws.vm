@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint 
+      interface="$sunjaxws.interfaceClass" 
+      implementation="$sunjaxws.implementationClass" 
+      name="$sunjaxws.name"
+      wsdl="WEB-INF/wsdl/$wsdl.name"
+      service="{$sunjaxws.targetNamespace}$sunjaxws.service"
+      port="{$sunjaxws.targetNamespace}$sunjaxws.port"
+      url-pattern="$sunjaxws.urlPattern"/>
+</endpoints>

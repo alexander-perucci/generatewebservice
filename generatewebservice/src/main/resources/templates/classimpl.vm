@@ -1,0 +1,9 @@
+package $classimpl.packageName;
+
+
+import javax.jws.WebService;
+
+@WebService(endpointInterface = "$classimpl.endpointInterface")
+public class $classimpl.className implements $classimpl.interfaceName{
+
+}
