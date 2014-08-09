@@ -1,7 +1,7 @@
 Automatic WebService Generation
 ==================
 
-Automatic WebService Generation is a Maven Java tool that permit generate a web service **automatically**.
+Automatic WebService Generation is a Maven Java tool that permit **Generate a Web Service Automatically**.
 
 ## Getting Started
 
