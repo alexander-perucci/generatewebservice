@@ -171,7 +171,7 @@ In this project is present a Test Class that generates a Calculator Web Service 
 ### generate a Web Service
 
 <pre>
-java generateWebService.jar -p calculator.properties -wsdl calculator.wsdl
+java -jar generateWebService.jar -p calculator.properties -wsdl calculator.wsdl
 </pre>
 
 ## Reporting an Issue
