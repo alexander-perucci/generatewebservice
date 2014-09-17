@@ -2,6 +2,8 @@ Automatic WebService Generation
 ==================
 
 Automatic WebService Generation is a Java tool that allows you to generate a Web service automatically.
+The generation is very fast and allow you to get the stub of the service to be generated, allowing developers to concentrate only in the implementation of the service.
+Generate the stub is really simple and automatic generation is based on the creation of a configuration file and execution of a simple command from your terminal system. 
 
 ## Getting Started
 
