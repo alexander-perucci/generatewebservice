@@ -184,7 +184,7 @@ java -jar generateWebService.jar -p calculator.properties -wsdl calculator.wsdl
 4. What version of the plug-in is the issue reproducible in. Is it reproducible after updating to the latest version.
 
 ## Contribute
-You can also support this project by donating on Gittip [here](https://www.gittip.com/prednaxela/)
+You can also support this project by donating on Gratipay [here](https://www.gratipay.com/prednaxela/)
 
 ## License
 Licensed under the MPL version 2.0 license.
