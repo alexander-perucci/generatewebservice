@@ -34,7 +34,7 @@ Where
      -wsdl <arg>   Wsdl
 </pre>
 
-**Note: after generation of the web service by opening the project with an IDE such as Eclipse or NetBeans you will notice an error in the class that implements the service (*Impl). This is caused because in this class you will need to implement all abstract methods.**
+**Note: after generation of the web service by opening the project with an IDE such as Eclipse or NetBeans you will notice an error in the class that implements the service (*Impl). This is caught because in this class you will need to implement all abstract methods of the generated service interface.**
 
 ## Example
 
