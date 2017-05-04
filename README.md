@@ -181,7 +181,7 @@ java -jar generateWebService.jar -p calculator.properties -wsdl calculator.wsdl
 1. Make sure the problem you're addressing is reproducible.
 
 ## Contribute
-You can also support this project by donating on Gratipay [here](https://www.gratipay.com/prednaxela/)
+You can also support this project by donating on Gratipay [here](https://www.gratipay.com/alexander_perucci/)
 
 ## License
 Licensed under the MPL version 2.0 license.
